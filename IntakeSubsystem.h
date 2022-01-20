@@ -5,5 +5,7 @@ class IntakeSubsystem{
     }
     void Run(double percent)
     {
+        speed = time*time*percent;
+        ;;;;
     }
 };
